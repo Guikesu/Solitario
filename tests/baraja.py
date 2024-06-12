@@ -1,4 +1,3 @@
-# src/baraja.py
 import random
 from carta import Carta
 
@@ -15,3 +14,14 @@ class Baraja:
 
     def repartir(self):
         return self.cartas.pop() if self.cartas else None
+
+    def __str__(self):
+        return f"Baraja con {len(self.cartas)} cartas"
+
+if __name__ == "__main__":
+    baraja = Baraja()
+    print(baraja)
+    print("Cartas repartidas:")
+    for _ in range(5):
+        print(baraja.repartir())
+    print(baraja)
