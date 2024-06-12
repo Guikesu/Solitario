@@ -78,8 +78,6 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
 
 ## Contacto
 
-Para cualquier duda o sugerencia, puedes contactarme a través de [tu_email@example.com].
+Para cualquier duda o sugerencia, puedes contactarme a través de [kensg20@gmail.com].
 
 ```
-
-Asegúrate de ajustar los detalles como el nombre de usuario de GitHub, la dirección de correo electrónico y cualquier otra información específica de tu proyecto. Este `README.md` proporciona una buena descripción general del proyecto y debería ayudar a otros a entender y contribuir al desarrollo del juego.
