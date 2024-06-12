@@ -4,7 +4,6 @@ class Jugador:
         self.movimientos = 0
 
     def realizar_movimiento(self, juego, origen, destino):
-        # Esta es una función genérica, donde `origen` y `destino` podrían ser columnas, fundaciones, etc.
         if juego.mover(origen, destino):
             self.movimientos += 1
             return True
@@ -22,8 +21,7 @@ if __name__ == "__main__":
     juego = Juego()
     jugador = Jugador("Jugador 1")
     print(jugador)
-    # Ejemplo de cómo el jugador realiza un movimiento
-    if jugador.realizar_movimiento(juego, 0, 'fundacion'):  # mover la carta de la columna 0 a la fundación
+    if jugador.realizar_movimiento(juego, 0, 'fundacion'):
         print("Movimiento realizado.")
     else:
         print("Movimiento no permitido.")

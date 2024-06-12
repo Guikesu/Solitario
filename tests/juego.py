@@ -62,9 +62,8 @@ class Juego:
             carta = self.columnas[origen].cima()
             if carta and self._puede_mover_a_fundacion(carta):
                 self.mover_a_fundacion(origen)
-                return True  # Movimiento válido
-        # Puedes agregar más lógica aquí para otros tipos de movimientos
-        return False  # Movimiento no válido
+                return True
+        return False
 
     def estado_juego(self):
         return {
