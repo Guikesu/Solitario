@@ -1,4 +1,4 @@
-# Solitario en Python 🃏
+# Solitario en Python
 
 ## Descripción
 
@@ -20,7 +20,7 @@ Para ejecutar el juego localmente, sigue estos pasos:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/Guikesu/Solitario.git
+    git clone https://github.com/tu_usuario/solitario.git
     cd solitario
     ```
 
@@ -40,3 +40,46 @@ Para ejecutar el juego localmente, sigue estos pasos:
 Para iniciar el juego, ejecuta el archivo `main.py`:
 ```bash
 python src/main.py
+```
+
+## Estructura del Proyecto
+
+```plaintext
+solitario/
+├── src/
+│   ├── carta.py          # Clase Carta
+│   ├── baraja.py         # Clase Baraja
+│   ├── juego.py          # Lógica del juego
+│   ├── jugador.py        # Clase Jugador (opcional)
+│   └── main.py           # Punto de entrada del juego
+├── tests/
+│   ├── test_carta.py     # Pruebas unitarias para la clase Carta
+│   ├── test_baraja.py    # Pruebas unitarias para la clase Baraja
+│   └── test_juego.py     # Pruebas unitarias para la lógica del juego
+├── README.md
+├── requirements.txt
+└── setup.py
+```
+
+## Pruebas
+
+Para ejecutar las pruebas unitarias, utiliza el siguiente comando:
+```bash
+python -m unittest discover -s tests
+```
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Siéntete libre de abrir un issue o enviar un pull request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Contacto
+
+Para cualquier duda o sugerencia, puedes contactarme a través de [tu_email@example.com].
+
+```
+
+Asegúrate de ajustar los detalles como el nombre de usuario de GitHub, la dirección de correo electrónico y cualquier otra información específica de tu proyecto. Este `README.md` proporciona una buena descripción general del proyecto y debería ayudar a otros a entender y contribuir al desarrollo del juego.
